@@ -32,17 +32,17 @@ redis监控程序很多，为什么还要自己做？
 
 1. 首先安装python库
 
-	> pip install redis-monitor
+	> **pip install redis-monitor**
 
 2. 初始化配置和数据库
 	
-	> redis-monitor init
+	> **redis-monitor init**
 
 3. 启动 webserver
 
-	> redis-monitor start
+	> **redis-monitor start**
 
-然后访问 [127.0.0.1:9527](http://127.0.0.1:9527/)（端口：LZSB，你懂的） 即可。
+然后访问 [127.0.0.1:9527](http://127.0.0.1:9527/)（端口：`LZSB`，你懂的） 即可。
 
 
 ## Screenshot

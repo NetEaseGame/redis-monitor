@@ -35,17 +35,17 @@ Because I clone so many program, but all exist difficult, cause by below:
 
 1. Install redis-monitor
 
-	> pip install redis-monitor
+	> **pip install redis-monitor**
 
 2. Init config & db
 	
-	> redis-monitor init
+	> **redis-monitor init**
 
 3. start webserver
 
-	> redis-monitor start
+	> **redis-monitor start**
 
-Then visit [127.0.0.1:9527](http://127.0.0.1:9527/)（Port：LZSB，Can you get ?）, OK!
+Then visit [127.0.0.1:9527](http://127.0.0.1:9527/)（Port: `LZSB`，Can you get ?）, OK!
 
 
 ## screenshot
