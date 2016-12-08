@@ -1,0 +1,3 @@
+recursive-include app *.py *.js *.css *.png *.jpg *.html
+recursive-include doc *
+recursive-exclude node_modules *.* *

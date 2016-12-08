@@ -1,0 +1,9 @@
+sudo: required
+language: python
+python:
+  - "2.7"
+before_install:
+  - pip install flake8
+install:
+  - sleep 10
+script: flake8
