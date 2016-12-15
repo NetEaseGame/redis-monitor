@@ -2,7 +2,7 @@
 
 > A web visualization redis monitoring program. Performance optimized and very easy to install and deploy, base on Flask and sqlite. the monitor data come from redis.info().
 
-[![Latest Stable Version](https://img.shields.io/pypi/v/redis-monitor.svg)](https://pypi.python.org/pypi/redis-monitor) [![Build Status](https://travis-ci.org/NetEaseGame/redis-monitor.svg?branch=master)](https://travis-ci.org/NetEaseGame/redis-monitor) 
+[![点击查看中文说明文档](http://shields.hust.cc/%E7%82%B9%E5%87%BB%E6%9F%A5%E7%9C%8B-%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3-ff69b4.svg)](README_zh.md) [![Latest Stable Version](https://img.shields.io/pypi/v/redis-monitor.svg)](https://pypi.python.org/pypi/redis-monitor) [![Build Status](https://travis-ci.org/NetEaseGame/redis-monitor.svg?branch=master)](https://travis-ci.org/NetEaseGame/redis-monitor)
 
 
 ## What
