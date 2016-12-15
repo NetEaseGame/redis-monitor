@@ -71,8 +71,7 @@ setup(name='redis-monitor',
         'pymysql==0.7.9',
         'jinja2==2.8',
         'redis==2.10.5',
-        'Flask-Script==2.0.5',
-        'wrapcache'
+        'Flask-Script==2.0.5'
       ],
       classifiers=[
         'Intended Audience :: Developers',

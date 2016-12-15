@@ -107,7 +107,7 @@ def createdb(drop_first=False):
 @manager.command
 def version():
     "Shows the version"
-    print __version__
+    print(__version__)
 
 
 # script entry

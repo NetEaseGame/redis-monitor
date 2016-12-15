@@ -10,7 +10,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 
 # 版本号
-__version__ = '1.0.1'
+__version__ = '1.0.2'
 
 
 # flask

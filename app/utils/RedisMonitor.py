@@ -4,14 +4,14 @@ Created on 2015年9月2日
 
 @author: hustcc
 '''
-from app.wraps.singleton_wrap import singleton
+from app.wraps import singleton_wrap
+from app.wraps import wrapcache
 import time
 import redis
-import wrapcache
 
 
 # 每秒中刷新一次
-@wrapcache.wrapcache(timeout=1)
+@wrapcache.wrapcache(timeout=10)
 def new_request(host, port, password, charset='utf8'):
     redis_rst = {}
     # 需要重新请求获得数据
@@ -32,7 +32,7 @@ def new_request(host, port, password, charset='utf8'):
     return redis_rst
 
 
-@singleton
+@singleton_wrap.singleton
 class RedisMonitor(object):
     def __init__(self):
         self.servers = {}

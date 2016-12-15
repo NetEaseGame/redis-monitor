@@ -22,6 +22,7 @@ def md5(s):
     '''
     md5
     '''
+    s = s.encode('utf-8')
     m = hashlib.md5()
     m.update(s)
     return m.hexdigest()
