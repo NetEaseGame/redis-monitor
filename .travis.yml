@@ -7,5 +7,5 @@ python:
 before_install:
   - pip install flake8
 install:
-  - sleep 10
+  - pip install redis-monitor
 script: flake8
