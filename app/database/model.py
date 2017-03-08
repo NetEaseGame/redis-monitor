@@ -4,7 +4,7 @@ Created on 2016-12-07
 
 @author
 '''
-
+from __future__ import absolute_import
 import datetime
 from app import SQLAlchemyDB as db
 from app.database.base import BaseMethod

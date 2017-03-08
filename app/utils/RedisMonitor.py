@@ -4,6 +4,7 @@ Created on 2015年9月2日
 
 @author: hustcc
 '''
+from __future__ import absolute_import
 from app.wraps import singleton_wrap
 from app.wraps import wrapcache
 import time

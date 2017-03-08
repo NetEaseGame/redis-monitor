@@ -13,7 +13,7 @@ var definePlugin = new webpack.DefinePlugin({
 
 module.exports = {
   entry: {
-	'redis-moinitor': './app/static/src/router.jsx'
+	'redis-monitor': './app/static/src/router.jsx'
   },
   output: {
     path: './app/static/dist/', 

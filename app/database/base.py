@@ -4,6 +4,7 @@ Created on 2016-12-07
 
 @author: hustcc
 '''
+from __future__ import absolute_import
 from app import SQLAlchemyDB as db
 
 

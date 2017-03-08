@@ -4,6 +4,7 @@ Created on 2016-02-19
 
 @author: hustcc
 '''
+from __future__ import absolute_import
 from app.utils import JsonUtil
 import flask
 

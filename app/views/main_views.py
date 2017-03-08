@@ -4,6 +4,7 @@ Created on 2016-06-16
 
 @author: hustcc
 '''
+from __future__ import absolute_import
 from app import app
 from app.database.model import RedisInfo
 from app.utils import ResponseUtil, \

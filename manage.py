@@ -4,7 +4,7 @@ Created on 2016-12-08
 
 @author: hustcc
 '''
-
+from __future__ import absolute_import
 from flask_script import Manager, Command, Server as _Server, Option
 from app import SQLAlchemyDB as db, app, __version__
 import os
